@@ -274,14 +274,22 @@ function Index() {
       <footer className="bg-primary py-16 text-primary-foreground">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-3">
           <div>
-            <div className="w-fit rounded-2xl bg-card p-3">
-              <img
-                src={logoImg}
-                alt="Bharat Eminence Foundation"
-                width={1254}
-                height={1254}
-                className="h-36 w-auto object-contain"
-              />
+            <div className="flex items-center gap-3.5">
+              <div className="w-fit rounded-2xl bg-card p-2.5">
+                <img
+                  src={logoImg}
+                  alt="Bharat Eminence Foundation"
+                  width={1254}
+                  height={1254}
+                  className="h-16 w-auto object-contain"
+                />
+              </div>
+              <div className="font-display text-xl font-bold leading-tight text-primary-foreground">
+                Bharat Eminence
+                <span className="block text-xs font-medium tracking-widest text-saffron uppercase">
+                  Foundation
+                </span>
+              </div>
             </div>
             <p className="mt-4 max-w-sm text-sm text-primary-foreground/75">
               A registered non-profit working for health, education, and meaningful livelihoods
